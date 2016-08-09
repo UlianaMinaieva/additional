@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Testsuit" verbose="1" >
+
+  <test name="com.example.tests.TestDeposit" >
+    <classes>
+      <class name="com.example.tests.TestDeposit" />
+    </classes>
+  </test>
+
+  <test name="com.example.tests.TestCredit" >
+    <classes>
+      <class name="com.example.tests.TestCredit" />
+    </classes>
+  </test>
+
+</suite>
